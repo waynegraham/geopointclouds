@@ -4,9 +4,23 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "modernizr": "~2.8.3",
-    "openlayers": "*"
+    "bower-ol3": "ol3#~3.4.0",
+    "three.js": "threejs#*",
+    "proj4": "~2.3.12",
+    "dat.gui": "*",
+    "bootstrap-progressbar": "~0.9.0",
+    "potree": "https://github.com/potree/potree.git",
+    "git@gist.github.com:e7e3f291321f16ab25d4": "git@gist.github.com:e7e3f291321f16ab25d4.git"
   },
   "overrides": {
+    "git@gist.github.com:e7e3f291321f16ab25d4": {
+      "main": "BinaryHeap.js"
+    },
+    "potree": {
+      "main": [
+        "build/js/potree.js"
+      ]
+    },
     "bootstrap-sass": {
       "main": [
         "assets/stylesheets/_bootstrap.scss",
